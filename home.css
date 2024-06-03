@@ -1,0 +1,154 @@
+body
+{
+    background-color: lightblue;
+}
+
+.home
+{
+    margin: auto;
+    max-width: 400px;
+    padding: 50px;
+    
+}
+
+.box
+{
+    width: 700px;
+    height: 600px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+h1
+{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+
+
+}
+
+marquee
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h3
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.search
+{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 75%;
+    background: #f1f1f1;
+}
+
+.sub1
+{
+  float: left;
+  width: 12%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.sub1:hover
+{
+    background: rgb(6, 113, 156);
+}
+
+.drop
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+    padding: 70px 0px 0px 0px;
+}
+
+.sub2
+{
+    font-size: 14px;
+    background-color: #92388c;
+    color: white;
+    width: 60px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.sub2:hover
+{
+    background: #501c6e;
+    cursor: pointer;
+}
+
+.sel
+{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    
+}
+
+#voice
+{
+    color: rgb(3, 3, 3);
+    font-family:  sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+#voicebutton
+{
+   padding: 10px 20px;
+   border: 0;
+   outline: 0;
+   background: brown;
+   color: white;
+   border-radius: 8px;
+}
+
+#voicebutton:hover
+{
+    background: #521517;
+    cursor: pointer;
+}
+
+textarea
+{
+    font-family: sans-serif;
+    padding: 15px 20px;
+    text-align: justify;
+    outline: 0;
+    color: grey;
+    border:2px solid;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+.speech
+{
+    place-items: center;
+    display: grid;
+    padding: 10px;
+}
+
+

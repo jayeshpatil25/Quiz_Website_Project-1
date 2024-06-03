@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Mania</title>
+    <link rel="stylesheet" href = "./home.css">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>Welcome to Quiz Mania</h1>
+    <marquee scrollamount="15" direction = "right">Where Curiosity Meets Intelligence</marquee>
+    <div class = "box">
+    <h3>Start your Quiz by searching the category from the below three choices: </h3>
+    <div class = "home">
+            <input id="s1" class = "search" type = "text" placeholder="Search quiz category..." name ="search1">
+            <button class = "sub1" id="submit1" type="submit"><i class="fa fa-search"></i></button>
+    </div>    
+        <div class = "drop">
+            <label>Choose Quiz Category: </label>
+            <select class = "sel" id = "s2">
+                <option style="font-size: 15px;">Select</option>
+                <option style="font-size: 15px;">Maths</option>
+                <option style="font-size: 15px;">Science</option>
+                <option style="font-size: 15px;">English</option>
+            </select>
+            <button class = "sub2" id = "submit2" type="submit">Submit</button>
+        </div>
+        <br><br>
+        <div class ="speech">
+            <h1 id = "voice">Voice Search</h1>
+            <textarea id = "voiceinput" rows="4" cols="30" placeholder="Speak out your category..."></textarea>
+            <br><button onclick="speak()" id="voicebutton">Click to Speak</button>
+            <button type="submit" class = "sub2" id = "submit3">Submit</button>
+        </div>
+    </div>
+    <script src = "quiz.js"></script>
+</body>
+</html>
